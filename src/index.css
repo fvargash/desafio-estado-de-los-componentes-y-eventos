@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -20,9 +22,20 @@ code {
 
 h1{
   text-align: center;
+  color:dimgray;
+}
+label{
+  color: dimgray;
 }
 
 button{
   margin-left: 47%;
   margin-top: 10px;
+  border-radius: 5px;
+  border-color: dimgray;
+}
+
+.form-control{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
